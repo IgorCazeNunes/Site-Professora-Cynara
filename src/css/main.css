@@ -7,3 +7,26 @@
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
 }
+
+.dr-text {
+    color: darkred !important;
+}
+
+.dr-btn {
+    color: white;
+    background-color: darkred !important;
+}
+
+.dr-border {
+    border-color: darkred !important;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.card-img-position {
+    object-fit: cover;
+    height: 200px;
+}
+
