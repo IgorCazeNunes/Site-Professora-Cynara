@@ -1,3 +1,7 @@
+main.container {
+	min-height: 100vh;
+}
+
 .list-group-item.active {
 	z-index: 2;
 	color: #fff;
