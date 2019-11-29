@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Igor Cazé Nunes">
+
+    <title>Cynara Carvalho - FACAPE</title>
+
+    <link rel="shortcut icon" href="public/images/favicon.gif" />
+
+    <link rel="stylesheet" href="public/css/vendors/bootstrap.min.css">
+
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/navbar.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+
+    <link rel="stylesheet" href="public/css/facape.css">
+</head>
+
+<body>
+    <!--------------------------------------->
+    <!--               Navbar              -->
+    <!--------------------------------------->
+    <nav class="navbar navbar-expand-lg sticky-top p-0">
+        <a class="navbar-brand ml-2 ml-lg-5" href="//www.facape.br" target="_blank">
+            <img src="public/images/facape-logo.png"
+                alt="Logo da Faculdade de Ciências Aplicadas e Sociais de Petrolina (FACAPE)">
+        </a>
+
+        <button class="navbar-toggler collapsed mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="collapse navbar-collapse mr-2 mr-lg-5 justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="facape.html?materia=projetos-de-sistemas">FACAPE</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- [End] Navbar -->
+
+    <!--------------------------------------->
+    <!--          Progress Bar             -->
+    <!--------------------------------------->
+    <div class="progress fixed-top">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div> <!-- [End] Progress Bar -->
+
+    <!--------------------------------------->
+    <!--        Container Principal        -->
+    <!--------------------------------------->
+    <main class="content container my-4">
+        <container class="row m-0">
+
+            <!--                Sidebar            -->
+            <!--------------------------------------->
+            <aside class="col-12 col-lg-3 my-3 my-lg-0">
+                <div class="card">
+                    <div class="list-group list-group-flush">
+
+                        <!--------------------------------------->
+                        <header class="card-header">
+                            <span>Ciência da Computação</span>
+                        </header>
+
+                        <a id="btn-projetos-de-sistemas" class="list-group-item js-altera-titulo js-scroll-suave"
+                            href="#js-load-projetos-de-sistemas" data-materia="Projetos de Sistemas"
+                            data-materia-url="projetos-de-sistemas" data-toggle="tab">
+                            Projetos de Sistemas
+                        </a>
+
+                        <a id="btn-interacao-humano-computador" class="list-group-item js-altera-titulo js-scroll-suave"
+                            href="#js-load-interacao-humano-computador" data-materia="Interação Humano Computador"
+                            data-materia-url="interacao-humano-computador" data-toggle="tab">
+                            IHC
+                        </a>
+
+                        <!--------------------------------------->
+                        <header class="card-header">
+                            <span>Gestão de TI</span>
+                        </header>
+
+                        <a id="btn-gestao-de-projetos" class="list-group-item js-altera-titulo js-scroll-suave"
+                            href="#js-load-gestao-de-projetos" data-materia="Gestão de Projetos"
+                            data-materia-url="gestao-de-projetos" data-toggle="tab">
+                            Gestão de Projetos
+                        </a>
+
+                        <!--------------------------------------->
+                        <header class="card-header">
+                            <span>Pós Graduação<span>
+                        </header>
+
+                        <a id="btn-design-de-interfaces" class="list-group-item js-altera-titulo js-scroll-suave"
+                            href="#js-load-design-de-interfaces-e-usabilidade"
+                            data-materia="Design de Interfaces e Usabilidade" data-materia-url="design-de-interfaces"
+                            data-toggle="tab">
+                            Design de Interfaces
+                        </a>
+                    </div>
+                </div>
+            </aside> <!-- [End] Sidebar -->
+
+            <!--            Card Principal         -->
+            <!--------------------------------------->
+            <section class="col-12 col-lg-9 my-3 m-lg-0">
+                <article class="card">
+
+                    <header class="card-header js-materia-title">
+                        Titulo da Materia
+                    </header>
+
+                    <main class="card-body">
+                        <div class="tab-content">
+
+                            <!--------------------------------------->
+                            <div id="js-load-projetos-de-sistemas" class="container tab-pane fade"></div>
+
+                            <!--------------------------------------->
+                            <div id="js-load-interacao-humano-computador" class="container tab-pane fade"></div>
+
+                            <!--------------------------------------->
+                            <div id="js-load-gestao-de-projetos" class="container tab-pane fade"></div>
+
+                            <!--------------------------------------->
+                            <div id="js-load-design-de-interfaces-e-usabilidade" class="container tab-pane fade"></div>
+
+                        </div>
+                    </main>
+
+                    </div>
+            </section> <!-- [End] Card Principal -->
+
+        </container>
+    </main> <!-- [End] Container Principal -->
+
+    <!--------------------------------------->
+    <!--               Footer              -->
+    <!--------------------------------------->
+    <!--------------------------------------->
+    <!--               Footer              -->
+    <!--------------------------------------->
+    <footer id="footer" class="footer">
+        <div class="container text-center text-lg-left">
+            <div class="row p-5 justify-content-center">
+
+                <!--              Contato              -->
+                <!--------------------------------------->
+                <div class="col-12 col-md-7 col-lg-5 col-xl-8">
+                    <div class="row">
+
+                        <!--      Coordenação de Computação    -->
+                        <!--------------------------------------->
+                        <div class="col-12 col-xl-6">
+                            <article>
+                                <header>
+                                    <h5>Coordenação de Computação</h5>
+                                </header>
+
+                                <div class="footer-line"></div>
+
+                                <p>
+                                    <i class="fas fa-envelope mr-2"></i>
+                                    <a class="footer-link" href="mailto:cynaracarvalho@yahoo.com.br?Subject=SOCORRO">
+                                        cynara.carvalho@facape.br
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <i class="fas fa-phone-alt mr-2"></i>
+                                    <a href="tel:+558738663224" class="footer-link">
+                                        (87) 3866-3224
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <i class="far fa-clock mr-2"></i>
+                                    08:00 - 12:00 | 14:00 - 22:00
+                                </p>
+                            </article>
+                        </div> <!-- [End] Coordenação de Computação-->
+
+                        <!--               FACAPE              -->
+                        <!--------------------------------------->
+                        <div class="col-12 col-xl-6">
+                            <article>
+                                <header>
+                                    <h5>FACAPE</h5>
+                                </header>
+
+                                <div class="footer-line"></div>
+
+                                <p>
+                                    <i class="fas fa-envelope mr-2"></i>
+                                    <a class="footer-link" href="mailto:ouvidoria@facape.br">
+                                        ouvidoria@facape.br
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <i class="fas fa-phone-alt mr-2"></i>
+                                    <a href="tel:+558738663200" class="footer-link">
+                                        (87) 3866-3200
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <i class="far fa-clock mr-2"></i>
+                                    08:00 - 12:00 | 14:00 - 22:00
+                                </p>
+                            </article>
+                        </div> <!-- [End] FACAPE -->
+
+                    </div>
+                </div> <!-- [End] Contato-->
+
+                <!--            Links Rapidos          -->
+                <!--------------------------------------->
+                <div class="col-12 col-md-7 col-lg-4 col-xl-4  ml-0 ml-lg-5 ml-xl-0">
+                    <article>
+                        <header>
+                            <h5>Links Rapidos</h5>
+                        </header>
+
+                        <div class="footer-line"></div>
+
+                        <p>
+                            <a href="facape.html?materia=projetos-de-sistemas" class="footer-link">
+                                Projetos de Sistemas
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="facape.html?materia=interacao-humano-computador" class="footer-link">
+                                I. H. C.
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="facape.html?materia=gestao-de-projetos" class="footer-link">
+                                Gestão de Projetos
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="facape.html?materia=design-de-interfaces" class="footer-link">
+                                Design de Interfaces
+                            </a>
+                        </p>
+                    </article>
+                </div> <!-- [End] Links Rapidos -->
+
+            </div>
+        </div>
+
+        <div class="footer-copy p-3">
+            <div class="row text-center">
+                <div class="col-12 col-md-6">
+                    &copy; 2019 Todos os direitos reservados
+                </div>
+
+                <div class="col-12 col-md-6">
+                    Desenvolvido por Igor Cazé
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="public/js/vendors/jquery-3.4.1.min.js"></script>
+    <script src="public/js/vendors/popper.min.js"></script>
+    <script src="public/js/vendors/bootstrap.min.js"></script>
+    <script src="public/js/vendors/font-awesome.min.js"></script>
+
+    <script src="public/js/main.js"></script>
+    <script src="public/js/facape.js"></script>
+</body>
+
+</html>

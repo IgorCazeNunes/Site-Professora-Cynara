@@ -1,0 +1,39 @@
+/* TOP Navbar
+ * -------------------------------------------------------- */
+.top-navbar {
+    display: none;
+    
+    width: 100%;
+    padding: .5rem 1rem;
+
+    background: #004884;
+}
+
+.top-navbar a {
+    color: #8AB5D6;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    text-decoration: none;
+    
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+}
+
+.top-navbar a:hover {
+    color: #FFFFFF;
+    
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+}
+
+/* TOP Navbar MediaQuery
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .top-navbar {
+        display: flex;
+    }
+}

@@ -1,0 +1,36 @@
+.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	background-color: #5851ff;
+	border-color: #5851ff;
+}
+
+.list-group-item.active:hover {
+	background-color: #504AE8;
+	border-color: #504AE8;
+}
+
+.card {
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: 0rem;
+}
+
+.card-header {
+	background-color: rgba(0, 0, 0, .02);
+}
+
+.card {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-header a .fa-plus {
+    display: none;
+}
+
+.card-header a.collapsed .fa-plus {
+    display: inline-block;
+}
+
+.card-header a.collapsed .fa-minus {
+    display: none;
+}

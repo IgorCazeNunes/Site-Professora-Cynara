@@ -1,0 +1,51 @@
+/* Conteudo Principal
+ * -------------------------------------------------------- */
+body,
+html {
+    min-height: 100%;
+    width: 100%;
+
+    background-color: #EDEDED;
+
+    font-size: 18px;
+
+    font-family: "Oswald", "Quicksand", Arial, sans-serif;
+}
+
+.progress {
+	height: 5px;
+}
+
+/* Container Principal
+ * -------------------------------------------------------- */
+.content {
+    min-height: 100%; 
+    padding: 0;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content .container-fluid {
+    padding: 50px;
+}
+
+/* Background Color
+ * -------------------------------------------------------- */
+.btn-majorelle-blue {
+    color: #fff;
+    background-color: #5851ff;
+    border-color: #5851ff;
+}
+
+.btn-majorelle-blue:hover {
+    color: #fff;
+    background-color: #504AE8;
+    border-color: #504AE8;
+}
+
+/* MediaQuery
+ * -------------------------------------------------------- */
+@media (max-width: 992px) {
+}

@@ -1,0 +1,55 @@
+/* -------------------------------------------------------- */
+/*                          Sobre                           */
+/* -------------------------------------------------------- */
+
+/* Sobre Imagem
+ * -------------------------------------------------------- */
+.content .sobre-img {
+    width: 250px;
+}
+
+/* Sobre Artigo
+ * -------------------------------------------------------- */
+.content .sobre-article {
+    max-width: 50%;
+
+    text-align: justify;
+
+    padding: 0 !important;
+    margin-left: 75px;
+}
+
+.content .sobre {
+    background-color: #0A2463;
+    color: #fff;
+}
+
+/* Sobre MediaQuery
+ * -------------------------------------------------------- */
+@media (max-width: 922px) {
+    .content .sobre-img {
+        display: none;
+    }
+
+    .content .sobre-article {
+        min-width: 100% !important;
+        text-align: justify;
+        margin-left: 0px !important;
+    }
+}
+
+/* -------------------------------------------------------- */
+/*                        Trabalhos                         */
+/* -------------------------------------------------------- */
+.content .trabalhos {
+    background-color: #EDEDED;
+    color: #000;
+}
+
+.content .trabalhos .sub-titulo {
+    padding-bottom: 20px;
+}
+
+.content .trabalhos p {
+    margin-top: 5px;
+}
