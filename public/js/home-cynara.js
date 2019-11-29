@@ -1,8 +1,23 @@
 $(document).ready(function () {
     progressAtivar();
+    navbarAlterOnScroll();
     navbarAtivarScrollSuave();
     navbarAtivarScrollSpy();
 });
+
+$(window).scroll(function () {
+    navbarAlterOnScroll();
+});
+
+function navbarAlterOnScroll() {
+    if (!mobileTest()) {
+        if ($(window).scrollTop() >= 40) {
+            $(".navbar").addClass("min-navbar");
+        } else {
+            $(".navbar").removeClass("min-navbar");
+        }
+    }
+}
 
 function navbarAtivarScrollSuave() {
     $(".js-scroll-suave").click(function (event) {

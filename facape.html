@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="public/css/vendors/bootstrap.min.css">
 
     <link rel="stylesheet" href="public/css/main.css">
-    <link rel="stylesheet" href="public/css/navbar.css">
+    <link rel="stylesheet" href="public/css/navbar.top.css">
+    <link rel="stylesheet" href="public/css/navbar.main.css">
     <link rel="stylesheet" href="public/css/footer.css">
 
     <link rel="stylesheet" href="public/css/facape.css">
@@ -23,40 +24,103 @@
 
 <body>
     <!--------------------------------------->
-    <!--               Navbar              -->
-    <!--------------------------------------->
-    <nav class="navbar navbar-expand-lg sticky-top p-0">
-        <a class="navbar-brand ml-2 ml-lg-5" href="//www.facape.br" target="_blank">
-            <img src="public/images/facape-logo.png"
-                alt="Logo da Faculdade de Ciências Aplicadas e Sociais de Petrolina (FACAPE)">
-        </a>
-
-        <button class="navbar-toggler collapsed mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-        </button>
-
-        <div class="collapse navbar-collapse mr-2 mr-lg-5 justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Início</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="facape.html?materia=projetos-de-sistemas">FACAPE</a>
-                </li>
-            </ul>
-        </div>
-    </nav> <!-- [End] Navbar -->
-
-    <!--------------------------------------->
     <!--          Progress Bar             -->
     <!--------------------------------------->
     <div class="progress fixed-top">
         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
             aria-valuemax="100"></div>
     </div> <!-- [End] Progress Bar -->
+
+    <!--------------------------------------->
+    <!--             TOP Navbar            -->
+    <!--------------------------------------->
+    <nav class="navbar top-navbar">
+        <container class="container">
+            <div class="col">
+                <span>
+                    <a href="tel:+558738663224">
+                        <i class="fas fa-phone-alt mr-2"></i>
+                        (87) 3866-3224
+                    </a>
+                </span>
+
+                <span>
+                    <a href="mailto:cynara.carvalho@facape.br ">
+                        <i class="fas fa-envelope mx-2"></i>
+                        cynara.carvalho@facape.br
+                    </a>
+                </span>
+            </div>
+
+            <div class="col">
+                <div class="float-right">
+                    <span>
+                        <a target="_blank" href="#">
+                            Ciência da Computação
+
+                            <i class="fas fa-laptop-code mx-2"></i>
+                        </a>
+                    </span>
+
+                    <span>
+                        <a target="_blank" href="http://www.facape.br">
+                            FACAPE
+
+                            <i class="fas fa-university mx-2"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </container>
+    </nav> <!-- [End] Top Navbar -->
+
+    <!--------------------------------------->
+    <!--            Main Navbar            -->
+    <!--------------------------------------->
+    <header>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <container class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="public/images/logo-ciencia-da-computacao.png" title="Logo-Ciência-da-Computação">
+                </a>
+
+                <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-links">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-links">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-suave" href="index.html">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="facape.html?materia=projetos-de-sistemas">Disciplinas FACAPE</a>
+                        </li>
+
+                        <div class="d-inline-block d-lg-none">
+                            <div class="dropdown-divider"></div>
+
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="http://www.facape.br">
+                                    <i class="fas fa-laptop-code mr-2"></i>
+                                    Ciência da Computação
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="http://www.facape.br">
+                                    <i class="fas fa-university mr-2"></i>
+                                    FACAPE
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </container>
+        </nav>
+    </header> <!-- [End] Main Navbar-->
 
     <!--------------------------------------->
     <!--        Container Principal        -->

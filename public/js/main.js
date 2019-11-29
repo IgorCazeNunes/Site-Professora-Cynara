@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    dropdownSuave();
+});
+
 function progressAtivar() {
     $(".progress").show();
 
@@ -14,27 +18,8 @@ function progressAtivar() {
     }, 1000);
 }
 
-$(document).ready(function () {
-    navbarAlterOnScroll();
-    dropdownSuave();
-});
-
-$(window).scroll(function () {
-    navbarAlterOnScroll();
-});
-
 function mobileTest() {
     return screen.width < 992;
-}
-
-function navbarAlterOnScroll() {
-    if (!mobileTest()) {
-        if ($(window).scrollTop() >= 40) {
-            $(".navbar").addClass("min-navbar");
-        } else {
-            $(".navbar").removeClass("min-navbar");
-        }
-    }
 }
 
 function dropdownSuave() {

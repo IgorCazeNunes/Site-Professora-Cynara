@@ -33,11 +33,11 @@ function tabAutoClick() {
         case "gestao-de-projetos":
         case "design-de-interfaces":
             $("#btn-" + materia).trigger('click');
-            window.history.pushState("", "", "/cynara/facape.html?materia=" + materia);
+            window.history.pushState("", "", "/facape.html?materia=" + materia);
             break;
         default:
             $("#btn-projetos-de-sistemas").trigger('click');
-            window.history.pushState("", "", "/cynara/facape.html?materia=projetos-de-sistemas");
+            window.history.pushState("", "", "/facape.html?materia=projetos-de-sistemas");
             break;
     }
 }
@@ -55,7 +55,7 @@ function ativarAlterTituloCard() {
 
         var materiaUrl = btnClicado.data('materia-url');
 
-        window.history.pushState("", "", "/cynara/facape.html?materia=" + materiaUrl);
+        window.history.pushState("", "", "/facape.html?materia=" + materiaUrl);
     });
 }
 
