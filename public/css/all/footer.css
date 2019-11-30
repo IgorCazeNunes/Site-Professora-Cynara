@@ -10,7 +10,7 @@
  * -------------------------------------------------------- */
 .footer .footer-line {
     width: 100%;
-    height: 3px;
+    height: 2px;
 
     background-color: #5851FF;
 
@@ -22,12 +22,15 @@
  * -------------------------------------------------------- */
 .footer a.footer-link {
     text-decoration: none;
+
     color: #FFFFFF;
+    
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
 }
 
 .footer a.footer-link:hover {
-    border-bottom: 1px solid #6760FF;
-
     color: #6760FF;
 
     transition: 0.3s ease-out;
