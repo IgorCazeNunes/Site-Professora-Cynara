@@ -43,6 +43,7 @@
 /* -------------------------------------------------------- */
 .content .trabalhos {
     background-color: #EDEDED;
+    padding: 50px;
     color: #000;
 }
 
@@ -52,4 +53,22 @@
 
 .content .trabalhos p {
     margin-top: 5px;
+}
+
+a.custom-link {
+    text-decoration: none;
+
+    color: #121416;
+    
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+}
+
+a.custom-link:hover {
+    color: #504AE8;
+
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
 }
